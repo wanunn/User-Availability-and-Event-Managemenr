@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1f1f20;
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  5% {
+    background-position: 10% 60%;
+  }
+  10% {
+    background-position: 20% 70%;
+  }
+  15% {
+    background-position: 30% 80%;
+  }
+  20% {
+    background-position: 40% 90%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  30% {
+    background-position: 60% 90%;
+  }
+  35% {
+    background-position: 70% 80%;
+  }
+  40% {
+    background-position: 80% 70%;
+  }
+  45% {
+    background-position: 90% 60%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  55% {
+    background-position: 90% 40%;
+  }
+  60% {
+    background-position: 80% 30%;
+  }
+  65% {
+    background-position: 70% 20%;
+  }
+  70% {
+    background-position: 60% 10%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  80% {
+    background-position: 40% 10%;
+  }
+  85% {
+    background-position: 30% 20%;
+  }
+  90% {
+    background-position: 20% 30%;
+  }
+  95% {
+    background-position: 10% 40%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
