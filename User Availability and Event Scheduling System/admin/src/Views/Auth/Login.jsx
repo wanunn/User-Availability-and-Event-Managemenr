@@ -34,7 +34,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault(); // Prevent form submission from reloading the page
     try {
-      const response = await fetch('http://localhost:5000/api/user/login', {
+      const response = await fetch('https://user-availability-and-event-managemenr-1.onrender.com/api/user/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -61,7 +61,7 @@ const Schedule = ({ onSuccess }) => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post(`http://localhost:5000/api/schedule/${eventId}`, {
+      await axios.post(`https://user-availability-and-event-managemenr-1.onrender.com/api/${eventId}`, {
         slot,
       }, {
         headers: {

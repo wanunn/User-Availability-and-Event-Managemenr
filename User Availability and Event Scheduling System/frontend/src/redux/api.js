@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/';
+const API_URL = 'https://user-availability-and-event-managemenr-1.onrender.com/api/';
 // Function to get the authentication token
 const getAuthToken = () => {
     return localStorage.getItem('token');

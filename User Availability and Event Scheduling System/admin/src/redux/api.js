@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/';
+const API_URL = 'https://user-availability-and-event-managemenr-1.onrender.com/api/';
 
 // Function to get the authentication token
 const getAuthToken = () => {
@@ -12,7 +12,7 @@ const getAuthToken = () => {
 // Get Events
 export const getEvents = async () => {
     try {
-        const response = await axios.get(`http://localhost:5000/api/users/events`, {
+        const response = await axios.get(`${API_URL}users/events`, {
             headers: {
                 'Authorization': `Bearer ${getAuthToken()}`
             }

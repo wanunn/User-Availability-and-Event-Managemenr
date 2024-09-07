@@ -24,7 +24,7 @@ function Register() {
   const handleRegister = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/api/user/register', formData);
+      const response = await axios.post('https://user-availability-and-event-managemenr-1.onrender.com/api/user/register', formData);
 
       if (response.status === 201) { 
         toast.success("Registration successful! Redirecting...",{
