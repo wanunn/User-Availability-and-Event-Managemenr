@@ -8,7 +8,7 @@ import Nav from './components/Nav';
 import Event from './Views/Event/Event';
 import Private from './routes/Private';
 import Users from './Views/Admin/Users';
-import Schedule from './Views/Event/schedule';
+import Schedule from './Views/Event/Schedule';
 import Events from './Views/Event/Events';
 import Profile from './Views/Admin/Profile';
 
